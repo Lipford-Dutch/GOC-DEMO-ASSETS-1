@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+site/
+dist/
+build/
+*.egg-info/
+*.log
