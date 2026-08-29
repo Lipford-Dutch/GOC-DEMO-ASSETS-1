@@ -1,0 +1,8 @@
+hostname {{ obj.name }}
+service password-encryption
+aaa new-model
+ntp server 192.0.2.10 prefer
+logging host 192.0.2.20
+snmp-server location {{ obj.local_config_context_data.region }}
+telemetry enable
+! Synthetic GOC demo configuration

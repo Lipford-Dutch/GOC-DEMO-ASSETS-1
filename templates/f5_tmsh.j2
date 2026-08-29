@@ -1,0 +1,6 @@
+sys global-settings { hostname {{ obj.name }} }
+sys ntp { servers { 192.0.2.10 } }
+sys syslog { remote-servers { goc { host 192.0.2.20 } } }
+cm device-group goc-ha { type sync-failover }
+sys db provision.extramb { value 2048 }
+# Synthetic GOC demo configuration

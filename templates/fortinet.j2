@@ -1,0 +1,11 @@
+config system global
+ set hostname {{ obj.name }}
+ set admin-https-redirect enable
+end
+config system ntp
+ set ntpsync enable
+end
+config system ha
+ set mode a-p
+end
+# Synthetic GOC demo configuration

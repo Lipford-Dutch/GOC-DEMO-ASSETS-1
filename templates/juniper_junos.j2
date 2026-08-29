@@ -1,0 +1,6 @@
+set system host-name {{ obj.name }}
+set system ntp server 192.0.2.10 prefer
+set system syslog host 192.0.2.20 any info
+set system services netconf ssh
+set chassis redundancy graceful-switchover
+## Synthetic GOC demo configuration
