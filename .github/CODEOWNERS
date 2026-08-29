@@ -1,0 +1,6 @@
+# Replace these placeholders during project kickoff.
+* @Lipford-Dutch/repository-owners
+
+/.github/ @Lipford-Dutch/platform-owners
+/docs/ @Lipford-Dutch/documentation-owners
+/SECURITY.md @Lipford-Dutch/security-owners

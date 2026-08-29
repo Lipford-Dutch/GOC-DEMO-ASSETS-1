@@ -1,0 +1,6 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Security Policy
+    url: https://github.com/Lipford-Dutch/GOC-Base-Repo-Template/security/policy
+    about: Report vulnerabilities using the security policy.
